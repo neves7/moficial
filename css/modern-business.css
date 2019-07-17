@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background-color: #0c1014;
+}
+
+.bg-dark{background-color: #000000e8 !important;}
+.navbar-nav li a{
+	font-size: 1.125rem; font-weight: normal; line-height: 1.2; color: #fff !important; font-family: 'Rubik', sans-serif;padding: 0.625rem;
+}
+
+.navbar-nav li a:hover{color: yellow !important;}
+
+
+/*
+.carousel{margin-top: -55px;}
+.carousel-item img{}
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*/
+
+
+
+/*
+.cont{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+*/
+
+.hero{
+	margin-top: -55px;
+	height: 100vh;
+	width: 100%;
+	background: url(../img/sl2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	 background-position: 100% 0%;
+    background-size: contain;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.hero-copy{
+	position: relative;
+	padding: 300px;
+	text-align: center;
+
+}
+
+.hero-copy h1{
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: .5em;
+}
+
+.hero-copy p{
+	color: #fff;
+	margin: auto;
+	margin-bottom: 3em;
+	font-weight: 200;
+	line-height: 1.4em;
+}
+
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
